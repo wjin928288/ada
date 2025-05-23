@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject",
+            "contentUrl": "CIP119:contentUrl",
+            "sha256": "CIP119:sha256"
+          }
+        },
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "givenName": "DeepStatecraft",
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "",
+      "sha256": "0efa899715266b1af187aa4cea8ede839d36dc379b3477ac110622dfd9bd9054"
+    },
+    "motivations": "I became a DRep because I believe decentralized governance needs principled, informed voices—people willing to do the work, ask hard questions, and prioritize the long-term health of the ecosystem. Professionally, I’ve worked at the intersection of finance, tech, and user experience, helping organizations scale without losing their values. Personally, I’ve always gravitated toward systems thinking and community-building. Cardano’s mission resonates with me, and I see DRep participation as a way to serve, learn, and help shape a more equitable, decentralized future.",
+    "objectives": "As a DRep, I stand for transparent, data-informed, and community-driven governance. My goal is to support proposals that strengthen Cardano’s decentralization, sustainability, and real-world utility. I vote with long-term value creation in mind—backing builders, researchers, and ideas that align with ethical growth and ecosystem integrity. I’ll communicate openly with delegators and explain my voting rationale to ensure accountability. Let’s build a resilient future on Cardano, together.",
+    "paymentAddress": "stake1uxgdrrwn7ph5ynx6yz97urepcs3gurlwvxmhgadjzf5tausuqrj7x",
+    "qualifications": "Professional experience in finance and technology, with a focus on scalable systems, risk management, and user-centered design\n\nDeep understanding of decentralized governance models and the Cardano ecosystem\n\nStrong analytical skills, honed through data-driven decision-making in high-stakes environments\n\nClear communicator with experience translating complex topics for broad audiences\n\nCommitted community member, engaged in Web3, open-source collaboration, and long-term ecosystem health",
+    "references": [
+      {
+        "@type": "Identity",
+        "label": "LinkedIn",
+        "uri": "linkedin.com/in/waynejin01"
+      },
+      {
+        "@type": "Identity",
+        "label": "X",
+        "uri": "https://x.com/waynejin086"
+      }
+    ]
+  }
+}
