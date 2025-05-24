@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject",
+            "contentUrl": "CIP119:contentUrl",
+            "sha256": "CIP119:sha256"
+          }
+        },
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "givenName": "DeepStatecraft",
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "https://raw.githubusercontent.com/wjin928288/ada/main/DeepStateCraft.png",
+      "sha256": "b1c8c2d2674048a64aeccc7ed785c1371e7f327542a87079de99ab11532a6df0"
+    },
+    "motivations": "I want to be a DRep because I believe decentralized governance is essential to Cardano’s long-term success — and that success depends on having thoughtful, informed voices participating in the decision-making process.\n\nProfessionally, I bring experience in forecasting, performance analysis, and operations strategy, which has taught me the value of data-driven decision making and long-term thinking. I’ve worked across teams to solve complex problems, balance competing priorities, and measure real-world impact — skills that translate directly to evaluating proposals and shaping policy for Cardano.\n\nPersonally, I’ve been part of the Cardano community for years and see governance as the next evolution of what makes this ecosystem different. I want to help bridge the gap between builders, voters, and protocol decisions by being a consistent, transparent, and approachable DRep.\n\nMy motivation is simple: to help Cardano grow in a direction that is sustainable, inclusive, and community-driven.",
+    "objectives": "As a DRep, I believe in transparent governance, active participation, and protecting the long-term health of the Cardano ecosystem. My goal is to represent the voice of delegators thoughtfully and independently, making decisions that prioritize decentralization, resilience, and real-world utility.\n\nI aim to:\n\t•\tPromote clear communication and education around proposals and voting decisions.\n\t•\tEnsure responsible, well-researched governance participation that avoids short-term hype and focuses on long-term impact.\n\t•\tSupport builders and innovators whose work aligns with Cardano’s vision of financial and social inclusion.\n\t•\tEngage the community to bring more voices into the governance process and uphold accountability.\n\nUltimately, I want to help make Cardano governance accessible, credible, and representative of its diverse global community.\n",
+    "paymentAddress": "addr1q8nhrfk7fw8s7wttm2xt8y2qgtsy5vthj9nne7n6gfcq9h5s6xxa8ur0gfxd5gytac8jr3pz3c87ucdhw36myynghmeq4vmugd",
+    "qualifications": "\t•\tStrategic systems thinker with 10+ years of experience designing scalable solutions and improving decision-making across complex environments\n\t•\tGlobal perspective, including direct collaboration with Asian financial authorities on regulatory strategy and innovation policy\n\t•\tDeep understanding of Cardano’s governance model, community values, and the long-term implications of on-chain decision-making\n\t•\tSkilled in analyzing proposals, modeling impact, and making independent, high-trust decisions under pressure\n\t•\tStrong communicator who translates complexity into clarity — essential for transparency, community engagement, and voter trust",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "X (Twitter)",
+        "uri": "https://x.com/DeepStatecrafts"
+      },
+      {
+        "@type": "Identity",
+        "label": "X (Twitter)",
+        "uri": "https://x.com/DeepStatecrafts"
+      }
+    ]
+  }
+}
